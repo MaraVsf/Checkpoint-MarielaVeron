@@ -1,0 +1,33 @@
+    1  mkdir Checkpoint-MarielaVeron
+    2  cd Checkpoint-MarielaVeron
+    3  git init
+    4  git add .
+    5  git commit -m "commit 00 de Mariela Veron"
+    6  touch main.js
+    7  touch index.html
+    8  git add .
+    9  git commit -m "commit 00 de Mariela Veron"
+   10  git remote add origin https://github.com/MaraVsf/Checkpoint-MarielaVeron.git
+   11  git push -u origin main
+   12  git branch feature
+   13  git switch feature
+   14  mkdir Hardware
+   15  mkdir Software
+   16  mkdir SeguridadInformatica
+   17  touch resumen.txt
+   18  move Hardware resumen.txt
+   19  move resumen.txt Hardware
+   20  mv resumen.txt Hardware
+   21  touch resumen.txt
+   22  mv resumen.txt Software
+   23  touch resumen.txt SeguridadInformatica
+   24  mv resumen.txt SeguridadInformatica
+   25  git add .
+   26  git commit -m "commit 01 de Mariela Verón"
+   27  git push origin feature
+   28  git switch main
+   29  ren main.js resumenHardware.txt
+   30  mv main.js resumenHardware.txt
+   31  mv index.html resumenSoftware.txt
+   32  touch comandos.txt
+   33  history 30 > comandos.txt
